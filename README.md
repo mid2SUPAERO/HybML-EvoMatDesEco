@@ -1,10 +1,9 @@
 # Structural Material Selection Using Deep Learning
-Github code to support the thesis of Luis Yepes Llorente entitled "Structural Material Selection Using Deep Learning"
+Github code to support the paper entitled "Structural Material Selection Using Deep Learning"
 
-
-Universidad de Sevilla
 
 ICA, Université de Toulouse, ISAE-SUPAERO, MINES ALBI, UPS, INSA, CNRS, Toulouse, France.
+Universidad de Sevilla
 
 ## Dependencies
 
@@ -52,22 +51,19 @@ Solves the single-objective problem with NSGAII algorithm making use of the VAE
 ## VAE_Multi_pymoo
 Solves the multi-objective problem with NSGAII algorithm making use of the VAE
 
-## Pareto_Bruteforce
+## Bruteforce_analysis
 Gets a solution by brute-force of a set of objectives and plots the Pareto front from the solution
 
 ## Integer_Optimizer
 Performs a multiple optimization of material and geometry using the pymoo tool Multi-objective Optimization With Mixed Variables https://pymoo.org/customization/mixed.html
 
-## VAE_Mixed_Multi_pymoo
-Runs a program similar to **VAE_Multi_pymoo** and then applies **Integer_Optimizer** to the reduced database
+## Hybrid
+Runs the Hybrid model.
 
-## Integer_Optimizer_3objectives
-Performs the same operation than in "Integer_Optimizer" but considering three objectives and representing the Pareto front
+## Hybrid_3objectives.ipynb
+Same than Hybrid but adapted to 3 objectives and the three-dimensional truss
 
-## VAE_Mixed_Multi_pymoo_3D
-Performs the same operation than in "VAE_Mixed_Multi_pymoo" but applied to a three-dimensional truss and considering three objectives
-
-## VAE_Mixed_Multi_pymoo_3D_INDEX
-Performs the same operation than in "VAE_Mixed_Multi_pymoo_3D" but considering the environmental consumption as objective
+## Integer_Optimizer_3Dtruss.ipynb
+Same than Integer_Optimizer but applied to the three-dimensional truss. Useful to get the compliance vs mass plot
 
 
