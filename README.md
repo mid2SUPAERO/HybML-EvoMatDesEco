@@ -1,5 +1,5 @@
-# Structural Material Selection Using Deep Learning
-Github code to support the paper entitled "Structural Material Selection Using Deep Learning"
+# A Hybrid Machine Learning and Evolutionary Approach to Material Selection and Design Optimization for Eco-Friendly Structures
+Github code to support the paper entitled "A Hybrid Machine Learning and Evolutionary Approach to Material Selection and Design Optimization for Eco-Friendly Structures"
 
 
 ICA, Université de Toulouse, ISAE-SUPAERO, MINES ALBI, UPS, INSA, CNRS, Toulouse, France.
@@ -12,18 +12,8 @@ PyTorch, scipy, numpy, matplotlib, pymoo
 
 ## Abstract
 
-In an increasingly competitive and digital industrial environment, the optimization of structures
-is a key point not only to reduce costs but also to reduce the consumption of natural resources.
-To this end, different approaches have emerged throughout history based on the tools available
-at the time.
-
-With the current rise of artificial intelligences and the concept of Machine Learning,
-revolutionary ideas are emerging that allow an optimal dimensioning of structures in record time.
-This work presents the use of Variational Autoencoders as a proposal for structural optimization
-solving mainly the discrete nature of the materials, being able to have a continuous space of
-materials that allows to accelerate enormously the search of the material to be used with gradient
-operations. An existing proposal based on this idea is improved and very important conclusions are
-drawn for its future development.
+In an increasingly competitive and digital industrial environment, the optimization of structures is a key point not only to reduce costs but also to reduce the consumption of natural resources. To this end, different approaches have emerged throughout history based on the tools available at the time. With the current rise of artificial intelligence and the concept of Machine Learning, revolutionary ideas are emerging that allow an optimal dimensioning of structures in record time. This work presents the use of Variational Autoencoders and mixed variable solvers as a proposal for structural optimization and material selection.
+It has expanded upon previous research by advancing in three directions: (1) Incorporating more material attributes, particularly relevant for environmental considerations. (2) A new constraint on the optimizer to steer far from vacant spaces in the VAE latent space. (3) A two-step hybrid approach to select the optimal candidate: preliminary filtering with VAE and final design via mixed variable model. Various examples demonstrate the applicability of the proposed method.
 
 
 
